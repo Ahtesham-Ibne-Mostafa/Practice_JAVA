@@ -1,3 +1,6 @@
+// This code contains basic for loop, for-eash loop and array 
+
+// Creating array class
 public class Arrays {
     public static void main (String[] args){
         int []a = new int [6];
@@ -13,8 +16,16 @@ public class Arrays {
         
         System.out.println(a[0]);
         
+        // for loop
         for (int i=0; i<6 ; i++)
             System.out.println(a[i]);
+        
+        System.out.println("-------------------");
+        
+        // for-each loop
+        for (int x : a)
+            System.out.println(x);
+        
         
         System.out.println(a.length);
     }
